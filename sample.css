@@ -465,6 +465,7 @@ color: #6a4cce;
 {
     .mobile-nav-toggle {
      display: block;
+     margin: 0 127px 0px 0px;
 }
 }
 
