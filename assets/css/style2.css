@@ -1,0 +1,524 @@
+
+/*=================about page=================*/
+
+.about-div{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	margin: 213px 0 0 132px;
+}
+
+/*mob nav*/
+
+@media(max-width:952px){
+
+  #about-section{
+  margin: 0 0 0 -272px;
+  } 
+   .about-div{
+   height: 500px;
+   width: 500px;
+   position: absolute;
+ 
+   }
+
+}
+
+.image-section{
+height: 276px;
+margin: -539px 0 0 43px;
+box-shadow: 5px 5px #313131;
+}
+
+#about-content-div{
+	  height: 407px;
+   width: 524px;
+   margin: 1px 00 0 251px;
+}
+
+
+@media(max-width:952px){
+ 
+    .image-section{
+       height: 158px;
+       margin: 34px 0 0 11px;
+       position: absolute;
+       box-shadow: 5px 5px #313131;
+       top: -25%;
+       left: 31%;
+   
+    }
+
+   #about-content-div{
+        height: 552px;
+        width: 351px;
+        margin: -4px 00 0 144px;
+
+    }
+
+} 
+
+
+
+
+
+/*
+# Akills
+--------------------------------------------------------------*/
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+#skills-div{
+position: absolute;
+top: 130%;
+margin: 0 0 0 113px;
+}
+
+@media(max-width:952px){
+
+   #skills-div{
+    position: absolute;
+    top: 40%;
+    margin: 0 0 0 0;
+   }
+
+}
+
+
+
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+
+/*Resume*/
+
+.resume-download-div{
+  position: absolute;
+  height: 47px;
+  width: 286px;
+  top: 116%;
+  border: 1.5px solid #e65600;
+  border-radius: 53px;
+}
+
+
+.resume{
+  font-style: inherit;
+  font-size: 20px;
+  margin: 0 0 0 45px;
+  color: white;
+
+}
+.resume-download-div:hover{
+  background: #e65600;;
+  border: none;
+  border-radius: none;
+
+}
+
+@media(max-width:952px){
+    .resume-download-div{
+  position: absolute;
+  height: 47px;
+  width: 286px;
+  top: 38%;
+  border: 1.5px solid #e65600;;
+  border-radius: 53px;
+  }
+
+
+ .resume{
+  font-style: inherit;
+  font-size: 20px;
+  margin: 0 0 0 45px;
+  color: white;
+
+ } 
+ .resume-download-div:hover{
+  background: #e65600;;
+  border: none;
+  border-radius: none;
+
+ } 
+
+}
+
+
+/*========
+===============Service new page stylee========================================*/
+.heding-underline{
+  text-decoration-color:#ef6603;
+   line-height:1px;
+  -webkit-text-underline-position: under;
+ -ms-text-underline-position: below;
+     text-underline-position: under;
+     color: white;
+}
+@media(max-width:952px){
+  
+  .heding-underline{
+  text-decoration-color:#ef6603;
+   line-height:2px;
+  -webkit-text-underline-position: under;
+ -ms-text-underline-position: below;
+     text-underline-position: under;
+     color: white;
+}
+}
+/*service heading*/
+.slide-right {
+ width: 100%;
+overflow: hidden;
+margin-left: 33%;
+max-width: 500px;
+top: 173px;
+position: absolute;
+color: #fff;
+font-weight: bold;
+}
+
+.slide-right h2 {
+   animation: 0.9s slide-right;
+   animation-delay: 0.1s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+ }
+@media(max-width:952px){
+   
+   .slide-right {
+ width: 100%;
+overflow: hidden;
+margin-left: 33%;
+max-width: 500px;
+top: 173px;
+position: absolute;
+color: #fff;
+font-weight: bold;
+    margin: -88px 0 0 0px;
+}
+
+}
+
+
+/*HEADING DIV*/
+
+#service-heading-div{
+margin: 29% 0 0 27%;
+position: absolute;
+}
+
+@media(max-width:952px){
+   
+    #service-heading-div{
+    margin: 29% 0 0 27%;
+     position: absolute;
+   }
+}
+
+  .text1 {
+            color: white;
+            font-size: 85px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            margin-bottom: 30px;
+            background: yellowgreen;
+            position: relative;
+            animation: text 2s 1;
+
+        }
+  
+        .text2 {
+            font-size: 55px;
+            color:#fff;
+            font-weight: 700;
+           
+        }
+  
+        @keyframes text {
+            0% {
+                color: black;
+                margin-bottom: -80px;
+            }
+  
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -70px;
+            }
+  
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -70px;
+            }
+        }
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+#res-image{
+  width: 100%;
+}
+
+/*mob nav*/
+@media(max-width:952px){
+   
+    #service-heading-div{
+margin: 27% 0 0 11%;
+position: absolute;
+}
+
+
+
+  .text1 {
+           color: white;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    /* background: yellowgreen; */
+    position: relative;
+    animation: text 1s 1;
+    width: 99px;
+
+        }
+  
+        .text2 {
+               font-size: 30px;
+               color: #fff;
+              font-weight: 700;
+              margin: -30px 0 00 -1px;
+           
+        }
+  
+        @keyframes text {
+            0% {
+                color: black;
+                margin-bottom: -80px;
+            }
+  
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -50px;
+            }
+  
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -60px;
+            }
+        }
+ 
+}
+
+
+
+
+/*=================INdex Follow me==========*/
+
+
+
+.follow-me-text{
+margin: -63px 0 0 40px;
+font-size: 19px;
+color: white;
+font-weight: bold;
+padding: 2px 4px 3px 11px;
+border-radius: 15px;
+text-decoration: none;
+text-decoration:none ;
+}
+
+
+.follow-name-slide-right {
+position: absolute;
+margin: 67% 0 0 0;
+
+}
+
+.follow-name-slide-right h4{ 
+   animation: 0.9s slide-right;
+   animation-delay: 0.1s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+ }
+
+ /*mob - nav*/
+@media(max-width:952px){
+
+.follow-name-slide-right {
+position: absolute;
+margin: 67% 0 0 0;
+
+}
+.follow-name-slide-right h4{
+ width: 100%;
+overflow: hidden;
+margin-left: 33%;
+max-width: 500px;
+position: absolute;
+color: #fff;
+font-weight: bold;
+margin: -66px 0 0 -35px;
+
+}
+ .follow-underline{
+
+ text-decoration-color: #ef6603;
+   line-height:2px;
+  -webkit-text-underline-position: under;
+ -ms-text-underline-position: below;
+     text-underline-position: under;
+     
+}
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+#resume-div{
+
+  position: absolute;
+  top: 171%;
+  margin: 0 0 0 70px;
+
+}
+
+
+@media(max-width:952px){
+
+  #resume-div{
+   position: absolute;
+   top: 58%;
+   margin: 0 0 0 -44px;
+  }
+
+}
+
+
+/*--------------------------------------------------------------
+# certification-div
+--------------------------------------------------------------*/
+
+
+#certification-div{
+  
+  position: absolute;
+  top: 250%;
+  margin: 0 0 0 70px;
+
+}
