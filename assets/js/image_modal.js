@@ -33,3 +33,53 @@ window.addEventListener("click", (event) => {
         modal2.style.display = "none";
     }
 });
+
+
+/// Function to open modal
+function openModal(modal) {
+  modal.style.display = "block";
+}
+
+// Function to close modal
+function closeModal(modal) {
+  modal.style.display = "none";
+}
+
+// Get the "View Certificate" modal and button
+var certificateModal = document.getElementById("myModal");
+var certificateBtn = document.getElementById("viewCertificate");
+var certificateSpan = certificateModal.getElementsByClassName("close")[0];
+
+// Get the "View Internship Certificate" modal, button, and close button
+var internshipModal = document.getElementById("InternModal");
+var internshipBtn = document.getElementById("viewInternCertificate");
+var internshipSpan = internshipModal.getElementsByClassName("close")[0];
+
+// Event listeners for opening modals
+certificateBtn.onclick = function() {
+  openModal(certificateModal);
+}
+
+internshipBtn.onclick = function() {
+  openModal(internshipModal);
+}
+
+// Event listeners for closing modals
+certificateSpan.onclick = function() {
+  closeModal(certificateModal);
+}
+
+internshipSpan.onclick = function() {
+  closeModal(internshipModal);
+}
+
+// Event listener for closing modals when clicking outside of them
+window.onclick = function(event) {
+  if (event.target == certificateModal) {
+    closeModal(certificateModal);
+  }
+  if (event.target == internshipModal) {
+    closeModal(internshipModal);
+  }
+}
+
